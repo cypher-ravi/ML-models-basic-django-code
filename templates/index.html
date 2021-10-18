@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Form</h2>
+
+<form action="{% url 'home' %}" method="POST">
+{% csrf_token %}
+  <label for="fname">Channel 1:</label><br>
+  <input type="text" id="fname" name="channel1" value="1"><br>
+  <label for="lname">Channel 2:</label><br>
+  <input type="text" id="lname" name="channel2" value="2"><br><br>
+  <label for="fname">Channel 3:</label><br>
+  <input type="text" id="fname" name="channel3" value="3"><br>
+  <label for="lname">Channel 4:</label><br>
+  <input type="text" id="lname" name="channel4" value="4"><br><br>
+  <label for="fname">Channel 5:</label><br>
+  <input type="text" id="fname" name="channel5" value="5"><br>
+  <label for="lname">Channel 6:</label><br>
+  <input type="text" id="lname" name="channel6" value="6"><br><br>
+  <label for="fname">Channel 7:</label><br>
+  <input type="text" id="fname" name="channel7" value="7"><br>
+  <label for="lname">Channel 8:</label><br>
+  <input type="text" id="lname" name="channel8" value="8"><br><br>
+  
+  <input type="submit" value="Submit">
+
+</form> 
+
+
+
+</body>
+</html>
